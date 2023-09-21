@@ -127,10 +127,10 @@ a {
 }
 
 .navbar__link:hover,
+.header-action__login:hover,
 .navbar__item--active .navbar__link {
     color: #fff;
     text-shadow: 1px 0 0 currentColor;
-    font-weight: 400;
 }
 
 .navbar__item--active::before {
@@ -382,4 +382,44 @@ a {
 
 .work-item__more:hover {
     font-weight: 500;
+}
+
+/* Feature */
+.feature {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.feature__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+
+.feature__media {
+    width: 48%;
+
+}
+
+.feature__images {
+    position: relative;
+    padding: 0 58px 121px 0;
+}
+
+.feature__img {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:last-child {
+    width: 332px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.feature__cta {
+    margin-top: 38px;
 }
